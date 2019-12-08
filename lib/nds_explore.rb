@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   directors_database
-  return [:name][:movies][:title]
+  return directors_database[:name][:movies][:title]
 end
 
 
